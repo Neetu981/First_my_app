@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import NewExpense from './components/newExpense/NewExpense';
 
 import Expenses from './components/Expenses/Expense';
 
@@ -13,7 +14,7 @@ const App=()=> {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>lets get started!</h2>
+        <NewExpense/>
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         {/* <p>
           Edit <code>src/App.js</code> and save to reload.
